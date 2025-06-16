@@ -1,0 +1,54 @@
+/* Set general styles for the whole page */
+body {
+  font-family: 'Segoe UI', sans-serif;  /* Use a clean and modern font */
+  background-color: #f3f3f3;            /* Set a light gray background */
+  margin: 0;                            /* Remove default margin */
+  padding: 0 20px;                      /* Add horizontal padding */
+}
+
+/* Style for the header section */
+header {
+  background-color: #0077cc;            /* Blue background */
+  color: white;                         /* White text */
+  padding: 30px 20px;                   /* Padding inside header */
+  text-align: center;                   /* Center the text */
+}
+
+/* Add spacing around the projects section */
+.projects {
+  margin: 40px 0;                       /* Add top and bottom margin */
+}
+
+/* Style each individual project box */
+.project {
+  background: white;                    /* White background for the project box */
+  border-radius: 8px;                   /* Rounded corners */
+  padding: 15px;                        /* Inner spacing */
+  margin-bottom: 15px;                  /* Space between project boxes */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);/* Add a soft shadow */
+}
+
+/* Style for the footer section */
+footer {
+  text-align: center;                   /* Center the footer text */
+  padding: 20px;                        /* Padding around the footer */
+  background: #eee;                     /* Light gray background */
+  font-size: 14px;                      /* Smaller font size */
+}
+
+/* Style the button */
+button {
+  margin-top: 10px;                     /* Space above the button */
+  padding: 10px 20px;                   /* Padding inside the button */
+  font-size: 16px;                      /* Font size for button text */
+  background: #fff;                     /* White background */
+  border: none;                         /* No border */
+  border-radius: 4px;                   /* Slightly rounded corners */
+  cursor: pointer;                      /* Pointer cursor on hover */
+}
+
+/* Add hover effect to the button */
+button:hover {
+  background: #005fa3;                  /* Darker blue background on hover */
+  color: white;                         /* White text on hover */
+}
